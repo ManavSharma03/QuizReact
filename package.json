@@ -1,0 +1,35 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "Basic Quiz app where MCQ's will be provided and have to select the right Option.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "start": "npx webpack-dev-server --mode development --open --hot"
+  },
+  "author": "ManavSharma03",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.24.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
